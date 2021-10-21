@@ -1,0 +1,149 @@
+@media (max-width: 1000px) {
+
+  /*header*/
+  .header-left a {
+      line-height: 65px;
+      padding: 0 15px;
+      display: block;
+      float: left;
+      transition: all 0.5s;
+  }
+
+  .header-right a {
+      line-height: 65px;
+      padding: 0 15px;
+      display: block;
+      float: left;
+      transition: all 0.5s;
+      }
+
+  .header-right {
+    display:none;
+  }
+          
+  .menu-icon {
+    display: block;
+  }
+
+
+  /*bagian atas*/
+  .top-wrapper {
+    background-size: cover;
+  }
+  .login {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contents-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    width: 100%;
+    float: left;
+  }
+  
+  .AboutUs {
+    margin-right: 15px;
+  }
+
+  .AboutUs p{
+    width: 100%;
+    padding-right: 10px;
+  }
+
+  .AboutUs img {
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  /*Bagian ulasan*/
+  .ulasan-wrapper {
+  height: 910px;
+  background-color: #fff8ec;
+  padding-bottom: 80px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+
+  .ulasan-item {
+  float: left;
+  width: 50%;
+  text-align: center;
+  }
+
+  .ulasan-item img {
+  width : 300px;
+  height: 300px;
+  }
+}
+  
+@media (max-width: 670px) {
+/*header*/
+
+.header-right {
+  display: none;
+}
+
+.menu-icon {
+  display: block;
+}
+
+/*bagian atas*/
+  .login {
+    width: 100%;
+    text-align: center;
+  }
+
+  .lesson-wrapper {
+    width: 100%;
+    height: 1250px;
+    margin-right: auto;
+  }
+
+  .contents-item {
+    top: 115px;
+    float: none;
+    margin: auto;
+  }
+  
+
+  .btn {
+    width: 100%;
+  }
+
+  .AboutUs {
+    margin-right: 15px;
+  }
+
+  .AboutUs p{
+    width: 100%;
+    padding-right: 10px;
+  }
+
+  .AboutUs img {
+    float: none; 
+  }
+
+  /*Bagian ulasan*/
+  .ulasan-wrapper {
+      height: 1700px;
+      background-color: #fff8ec;
+      padding-bottom: 80px;
+      margin-bottom: 50px;
+  }
+    
+  .ulasan-item {
+      float: none;
+      width: 100%;
+      text-align: center;
+  }
+    
+  .ulasan-item img {
+      width : 280px;
+      height: 280px;
+  }
+}
